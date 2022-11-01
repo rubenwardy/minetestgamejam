@@ -82,3 +82,29 @@ p#begins {
     font-size: 1.5em;
     color: white;
 }
+
+#cta {
+    display: inline-block;
+	margin: 0.25rem 0.25rem 0.25rem 0;
+	line-height: 1.5;
+	background: linear-gradient(to bottom, #bd6d7c, #aa616e);
+	border: 1px solid transparent;
+	color: white;
+	transition: filter 0.15s ease-in-out;
+	cursor: pointer;
+	box-sizing: border-box;
+	text-align: center;
+    padding: 0.8rem 1rem;
+	font-size: 1.171875rem;
+	border-radius: 1.2rem;
+    text-decoration: none;
+    margin-top: 3em;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#cta:hover {
+    color: white;
+    text-decoration: none;
+    filter: brightness(1.1);
+}
